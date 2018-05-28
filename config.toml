@@ -16,13 +16,13 @@ theme = "coder" # set the theme
     weight = 1
     url = "https://github.com/mishfit/"
 [[params.social]]
-    name = "Twitter"
-    weight = 2
-    url = "https://twitter.com/mishochu/"
-[[params.social]]
     name = "LinkedIn"
-    weight = 3
+    weight = 2
     url = "https://www.linkedin.com/in/mishochu/"
+[[params.social]]
+    name = "Twitter"
+    weight = 3
+    url = "https://twitter.com/mishochu/"
 
 # Menu links
 [[menu.main]]
