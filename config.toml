@@ -1,8 +1,16 @@
 baseURL = "http://mishochu.com"
-languageCode = "en-us"
 title = "Mish Ochu"
-
 theme = "coder" # set the theme
+
+
+languageCode = "en-us"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
 [params] # theme parameters
     author = "Mish Ochu"
