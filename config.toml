@@ -1,7 +1,5 @@
 baseURL = "https://mishochu.com"
 title = "Mish Ochu"
-theme = "coder" # set the theme
-
 
 languageCode = "en-us"
 

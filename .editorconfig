@@ -14,7 +14,6 @@ trim_trailing_whitespace = true
 
 # markdown files
 [*.md]
-insert_final_newline = false
 trim_trailing_whitespace = false
 
 # configuration files
@@ -25,5 +24,3 @@ indent_size = 2
 [*.{html,css,less}]
 indent_size = 2
 
-[Makefile]
-indent_style = tab

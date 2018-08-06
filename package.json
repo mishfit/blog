@@ -1,0 +1,28 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "description": "Mish's blog",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishfit/blog.git"
+  },
+  "keywords": [
+    "Blog",
+    "Hugo"
+  ],
+  "author": "Mish Ochu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mishfit/blog/issues"
+  },
+  "homepage": "https://github.com/mishfit/blog#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-uglifycss": "^1.1.0"
+  }
+}

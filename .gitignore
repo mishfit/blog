@@ -10,3 +10,7 @@ logs
 *.swo
 
 public/
+
+# npm
+node_modules/
+
