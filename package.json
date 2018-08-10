@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Mish's blog",
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "deploy": "gulp deploy"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,12 @@
   },
   "homepage": "https://github.com/mishfit/blog#readme",
   "devDependencies": {
+    "exec-pgp": "0.0.1",
     "gulp": "^3.9.1",
     "gulp-less": "^4.0.1",
     "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.4.0",
     "gulp-uglifycss": "^1.1.0"
-  }
+  },
+  "dependencies": {}
 }

@@ -26,9 +26,17 @@ pygmentscodefencesguesssyntax = true
     weight = 2
     url = "https://www.linkedin.com/in/mishochu/"
 [[params.social]]
-    name = "Twitter"
+    name = "Minds"
     weight = 3
-    url = "https://twitter.com/mishochu/"
+    url = "https://www.minds.com/mishochu"
+[[params.social]]
+    name = "Steemit"
+    weight = 3
+    url = "https://steemit.com/ethereum/@mishochu"
+[[params.social]]
+    name = "Bitchute"
+    weight = 3
+    url = "https://www.bitchute.com/mishochu/"
 
 # Menu links
 [[menu.main]]

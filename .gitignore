@@ -13,4 +13,4 @@ public/
 
 # npm
 node_modules/
-
+.deploy.json
