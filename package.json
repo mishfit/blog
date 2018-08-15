@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Mish's blog",
   "scripts": {
-    "build": "gulp",
+    "build": "gulp && hugo",
     "deploy": "gulp deploy"
   },
   "repository": {

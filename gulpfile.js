@@ -24,7 +24,7 @@ gulp.task('deploy', function () {
     .then(result => {
       const { output } = result,
             config = JSON.parse(output),
-            sourceDir = config.source + '/*`
+            sourceDir = config.source + '/*'
       
       return gulp.src(sourceDir)
         .pipe(plumber())
