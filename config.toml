@@ -32,7 +32,7 @@ pygmentscodefencesguesssyntax = true
 [[params.social]]
     name = "Steemit"
     weight = 3
-    url = "https://steemit.com/ethereum/@mishochu"
+    url = "https://steemit.com/@mishochu"
 [[params.social]]
     name = "Bitchute"
     weight = 3
