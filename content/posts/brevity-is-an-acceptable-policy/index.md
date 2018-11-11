@@ -19,7 +19,3 @@ Great! You say, sarcastically. "But the overhead involved in simply coding, comp
 
 However, it wasn't until recently that the paired down core CLR was available on a platform other than Windows.
 
-I've uploaded a [tiny project](https://github.com/mishfit/hello-lite) which includes everything you need to run "hello world lite"
-
-
-
