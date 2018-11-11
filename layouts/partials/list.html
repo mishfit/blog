@@ -1,7 +1,7 @@
 <section class="container list">
   <h1 class="title">{{ .Title }}</h1>
   <ul>
-    {{ range .Paginator.Pages }}
+    {{ range .Paginator.Pages.ByDate }}
     <li>
       <span>{{ .Date.Format "January 2, 2006" }}</span><a href="{{ .URL }}">{{ .Title }}</a>
     </li>

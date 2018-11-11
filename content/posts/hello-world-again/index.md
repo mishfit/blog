@@ -11,7 +11,7 @@ Needless to say, there's room for everyone.
 
 What I hadn't realized in the past is that there's room for the smallest of ideas too. I'd go weeks or months without writing since I thought it was mundane. Perhaps, but what if someone out there disagreed? What if it was just the thing someone else needed?
 
-So here goes, I'll write more often. It might be simple, it might not. Since my current interests skew toward making cryptocurrencies useful it probably won't be all that simple. There are lots of pitfalls. While someone else would tell you to RTFM, I won't. There are often times you'll end up wanting to rip your hair out, "I did it just like in the documentation!" Yeah, so did I, it didn't work, that feature wasn't ready yet (or was unavailable on this protocol, or when connecting to that server) and you'll have to work around it. I've been there, I've done it...I burned that t-shirt to ground in spite.
+So here goes, I'll write more often. It might be simple, it might not. Since my current interests skew toward making cryptocurrencies useful it probably won't be all that simple. There are lots of pitfalls. While someone else would tell you to RTFM, I won't. There are often times you'll end up wanting to rip your hair out, "I did it just like in the documentation!" Yeah, so did I, it didn't work, that feature wasn't ready yet (or was unavailable on this protocol, or when connecting to that server) and you'll have to work around it. I've been there, I've done it...I burned that t-shirt to the ground in spite.
 
 So here's what I'll do:
 
