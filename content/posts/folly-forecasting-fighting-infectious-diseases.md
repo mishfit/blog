@@ -30,10 +30,23 @@ BSE (Mad Cow): 136,000 vs 2826
 Bird Flu H7N9 of 2005: 200M vs 616
 Swine Flu H1N1 2009: 65,000 vs 457
 
-Now each of these squares represent 100 deaths. Each one regrettable, senseless and tragic, yet each of Neil Ferguson's predictions are so unlike reality that "deaths of despair" related to non-therapeutic interventions outpace them by multiple factors.
+Now, each of these squares represent 100 deaths. Each one regrettable, senseless and tragic, yet each of Neil Ferguson's predictions are so unlike reality that "deaths of despair" related to non-therapeutic interventions outpace them by multiple factors.
 
+If that's not bad enough, if you drill down through the data over the years you come to the conclusion that "Fauci doesn't know anything about anything."[8]
 
+We knew, if we studied Hegel at all, that there was going to be a repressive swing back after the 1960s. The popularity of drugs, sex and rock and roll waxes and wanes.
 
+By the time 1979 rolls around and a few researchers think they've hit upon the cause of a strange illness in hard-partying homosexual men they cannot get congress and the NIH to fund their work to save a few "undesirables".
+
+So they performed a slight of hand. The trick was to convince everyone that HIV was the cause of AIDS and that the risks were spread out equally over homosexual and heterosexual demographics regardless of age and other recreational behaviour.
+
+There are seven other diagnoses that have the same symptomatic breakdown as AIDS: tuberculosis, malaria, cytomegalovirus, syphilis, parasites, cancer, pneaumonias. 
+
+That's what the CDC pulled off, take this poison until you die because otherwise you might just die.
+
+Science isn't a belief. Scientists are not supposed to believe anything. Scientists are supposed to have some evidence that leads them tentatively to some conclusion or to some action. They're supposed to be able to show that to other scientists or any interested person who's willing to understand what it is that was used as evidence and to allow that person to say, "yeah, I agree with that. That makes sense." Using rules of inference that we had since the time of Aristotle, it's not complicated at all...an eigth grader should be able to handle it.
+
+Science is not a set of beliefs.
 
 Are we even living through a pandemic? What even is a pandemic? According to the World Health Organization (WHO) a pandemic [*was][1] a larger occurrence of epidemics or outbreaks that ranges worldwide and causes "enormous numbers of deaths and illness".
 
@@ -67,3 +80,4 @@ People are still responsible for their own decisions, much in the same ways huma
 [5]: http://web.archive.org/web/20210217052412/https://twitter.com/ID_AA_Carmack/status/1254872369556074496
 [6]: http://web.archive.org/web/20210410202810/https://lockdownsceptics.org/code-review-of-fergusons-model/
 [7]: http://ronpaulinstitute.org/archives/featured-articles/2021/february/26/imperial-folly-neil-ferguson-has-no-qualification-in-biological-sciences/
+[8]: https://odysee.com/@The-Vaccine-Narrative-Refuted:1/Kary-Mullis-The-full-interview-by-Gary-Null:8
