@@ -1,11 +1,13 @@
 pipeline {
-    agent any
+    agent {
+        docker { image 'klakegg/hugo:0.83.1-ext-debian' }
+    }
 
     stages {
 
         stage("build") {
             steps {
-                echo 'building the applicaiton...'
+                sh 'hugo --verbose'
             }
         }
 
