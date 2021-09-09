@@ -1,5 +1,6 @@
 baseURL = "https://mishochu.com"
 title = "Mish Ochu"
+archetypeDir = "hugo-tools/archetypes"
 
 languageCode = "en-us"
 
