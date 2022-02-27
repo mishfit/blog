@@ -8,4 +8,4 @@ categories: ["dev setup", ""]
 ## Fine, I'll Do It Myself
 ![fine I'll do it myself][thanos]
 
-[thanos]: images/fine-ill-do-it-myself.jpg "When Centralized Services Let You Down"
+[thanos]: ./images/fine-ill-do-it-myself.jpg "When Centralized Services Let You Down"
