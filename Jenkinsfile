@@ -17,6 +17,7 @@ pipeline {
             agent { label 'production' }
             steps {
                 unstash 'app'
+                sh 'whoami'
                 sh 'cp -R public/* /var/www/mishochu.com'
             }
         }
