@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("build") {
             agent {
-                docker { image 'klakegg/hugo:0.83.1-ext-debian-ci' }
+                docker { image 'klakegg/hugo:0.94.2-ext-debian-ci' }
             }
 
             steps {
