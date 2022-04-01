@@ -1,3 +1,7 @@
+---
+title: "SCP Examples"
+date: 2019-05-07T06:52:33-06:00
+---
 # Example syntax for Secure Copy (**scp**)
 
 ### What is Secure Copy?

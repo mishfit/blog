@@ -21,6 +21,6 @@ trim_trailing_whitespace = false
 indent_size = 2
 
 # web files
-[*.{html,css,less}]
+[*.{html,css,scss,less}]
 indent_size = 2
 
