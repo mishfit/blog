@@ -17,7 +17,7 @@ pipeline {
             agent { label 'production' }
             steps {
                 unstash 'app'
-                sh 'pushd /var/www/mishochu.com/ && find . ! -name "share" -exec rm -rfv {} ";" && popd'
+                sh 'find /var/www/mishochu.com/ ! -name "share" -exec rm -rfv {} ";"'
                 sh 'cp -R public/* /var/www/mishochu.com'
             }
         }
