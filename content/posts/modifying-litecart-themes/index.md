@@ -1,7 +1,6 @@
 ---
 title: "Modifying Litecart Themes"
 date: 2022-04-01T07:25:55-06:00
-draft: true
 ---
 
 I recently started using [Litecart](https://litecart.net), a light-weight, fast and open-source  e-commerce platform with an incredible amount of flexibility and configurability.
