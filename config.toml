@@ -38,9 +38,9 @@ customSCSS = []
 customJS = []
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
-childsrc = ["'self'"]
+childsrc = ["'self'", "https://btcpay.nokware.net/"]
 fontsrc = ["'self'" ]
-formaction = ["'self'"]
+formaction = ["'self'", "https://btcpay.nokware.net/"]
 framesrc = ["'self'", "https://www.youtube.com/"]
 imgsrc = ["'self'", "https://btcpay.nokware.net/", "https://i.vimeocdn.com/"]
 objectsrc = ["'none'"]
@@ -50,11 +50,12 @@ stylesrc = [
 ]
 scriptsrc = [
   "'self'",
-  "'unsafe-inline'"
+  "'unsafe-inline'",
+  "https://btcpay.nokware.net/"
 ]
-prefetchsrc = ["'self'"]
+prefetchsrc = ["'self'", "https://btcpay.nokware.net/"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'" ]
+connectsrc = ["'self'", "https://btcpay.nokware.net/" ]
 
 [taxonomies]
 category = "categories"
