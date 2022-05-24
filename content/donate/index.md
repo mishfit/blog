@@ -27,6 +27,6 @@ sharing: false
         <input class="btcpay-input-range" id="btcpay-input-range" value="10" type="range" min="1" max="50" step="1" style="width:209px;margin-bottom:15px;" oninput="document.querySelector('#btcpay-input-price').value = document.querySelector('#btcpay-input-range').value" />
     </div>
     <button type="submit" class="submit" name="submit" style="min-width:209px; min-height:57px; border-radius: 4px;border-style: none;background-color: #0f3b21;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Donate with</span>
-        <img src="https://btcpay.nokware.net/img/logo.svg" style="height:57px;display:inline-block;padding: 5% 0 5% 5px;vertical-align: middle;">
+        <img src="https://btcpay.nokware.net/checkout/css/default-logo.svg" style="height:57px;display:inline-block;padding: 5% 0 5% 5px;vertical-align: middle;">
     </button>
 </form>{{< /rawhtml >}}
