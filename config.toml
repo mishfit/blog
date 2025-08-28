@@ -1,28 +1,81 @@
 baseURL = "https://mishochu.com"
 title = "Mish Ochu"
+archetypeDir = "hugo-tools/archetypes"
 
 languageCode = "en-us"
 
-paginate = 10
+[pagination]
+pagerSize = 10
 canonifyurls = true
 
-pygmentsstyle = "b2"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+[markup]
+  [markup.highlight]
+    style = "bw"
+    codeFences = true
+    guessSyntax = true
+enableEmoji = true
 
-[params] # theme parameters
-    author = "Mish Ochu"
-    info = "Still writing, sometimes in code, sometimes in English" # author's job title or info
-    description = "Buckle in, this is going to get random" # site description
-    keywords = "blog,developer,personal" # site keywords
+[params]
+# theme parameters
+author = "Mishael Ochu"
+# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+info = ["Still writing, sometimes in code, sometimes in English"] # author's job title or info
+description = "Buckle in, this is going to get random" # site description
+keywords = "blog,developer,personal" # site keywords
+rtl = false
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+# Custom JS
+customJS = []
+# If you want to implement a Content-Security-Policy, add this section
+[params.csp]
+childsrc = ["'self'", "https://btcpay.nokware.net/"]
+fontsrc = ["'self'" ]
+formaction = ["'self'", "https://btcpay.nokware.net/"]
+framesrc = ["'self'", "https://www.youtube.com/"]
+imgsrc = ["'self'", "https://btcpay.nokware.net/", "https://i.vimeocdn.com/"]
+objectsrc = ["'none'"]
+stylesrc = [
+  "'self'",
+  "'unsafe-inline'"
+]
+scriptsrc = [
+  "'self'",
+  "'unsafe-inline'",
+  "https://btcpay.nokware.net/"
+]
+prefetchsrc = ["'self'", "https://btcpay.nokware.net/"]
+# connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
+connectsrc = ["'self'", "https://btcpay.nokware.net/" ]
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
 
 # Social links
 [[params.social]]
     name = "Github"
+    icon = "fa fa-2x fa-github"
     weight = 1
     url = "https://github.com/mishfit/"
 [[params.social]]
     name = "LinkedIn"
+    icon = "fa fa-2x fa-linkedin"
     weight = 2
     url = "https://www.linkedin.com/in/mishochu/"
 [[params.social]]
@@ -37,8 +90,21 @@ pygmentscodefencesguesssyntax = true
     name = "Bitchute"
     weight = 3
     url = "https://www.bitchute.com/mishochu/"
+[[params.social]]
+    name = "RSS"
+    icon = "fa fa-2x fa-rss"
+    weight = 6
+    url = "https://mishochu.com/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
+
+
 
 # Menu links
+[languages.en]
+languageName = ":uk:"
+
+
 [[menu.main]]
     name = "Blog"
     weight = 1

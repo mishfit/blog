@@ -6,11 +6,13 @@ logs
 .env
 
 # Vim swp files
-*.swp
-*.swo
+*.sw[opu]
 
 public/
 
 # npm
 node_modules/
 .deploy.json
+.DS_Store
+
+*.lock
