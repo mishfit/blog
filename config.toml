@@ -4,12 +4,15 @@ archetypeDir = "hugo-tools/archetypes"
 
 languageCode = "en-us"
 
-paginate = 10
+[pagination]
+pagerSize = 10
 canonifyurls = true
 
-pygmentsstyle = "bw"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+[markup]
+  [markup.highlight]
+    style = "bw"
+    codeFences = true
+    guessSyntax = true
 enableEmoji = true
 
 [params]
@@ -110,7 +113,3 @@ languageName = ":uk:"
     name = "About"
     weight = 2
     url = "/about/"
-[[menu.main]]
-    name = "Donate"
-    weight = 2
-    url = "/donate/"
