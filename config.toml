@@ -79,17 +79,20 @@ author = "authors"
     weight = 2
     url = "https://www.linkedin.com/in/mishochu/"
 [[params.social]]
-    name = "Minds"
+    name = "Instagram"
+    icon = "fa fa-2x fa-instagram"
     weight = 3
-    url = "https://www.minds.com/mishochu"
+    url = "https://www.instagram.com/mishochu"
 [[params.social]]
-    name = "Steemit"
+    name = "Facebook"
+    icon = "fa fa-2x fa-facebook"
     weight = 3
-    url = "https://steemit.com/@mishochu"
+    url = "https://www.facebook.com/profile.php?id=100094438041443"
 [[params.social]]
-    name = "Bitchute"
+    name = "Youtube"
+    icon = "fa fa-2x fa-youtube"
     weight = 3
-    url = "https://www.bitchute.com/mishochu/"
+    url = "https://www.youtube.com/@mishochu7050"
 [[params.social]]
     name = "RSS"
     icon = "fa fa-2x fa-rss"
