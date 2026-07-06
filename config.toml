@@ -2,7 +2,7 @@ baseURL = "https://mishochu.com"
 title = "Mish Ochu"
 archetypeDir = "hugo-tools/archetypes"
 
-languageCode = "en-us"
+locale = "en-US"
 
 [pagination]
 pagerSize = 10
@@ -36,14 +36,14 @@ maxSeeAlsoItems = 5
 # Custom CSS
 customCSS = []
 # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
-customSCSS = []
+customSCSS = ["scss/mail-signup.scss"]
 # Custom JS
 customJS = []
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
 childsrc = ["'self'", "https://btcpay.nokware.net/"]
 fontsrc = ["'self'" ]
-formaction = ["'self'", "https://btcpay.nokware.net/"]
+formaction = ["'self'", "https://btcpay.nokware.net/", "https://mail-mgmt.nokware.net/"]
 framesrc = ["'self'", "https://www.youtube.com/"]
 imgsrc = ["'self'", "https://btcpay.nokware.net/", "https://i.vimeocdn.com/"]
 objectsrc = ["'none'"]
@@ -58,7 +58,7 @@ scriptsrc = [
 ]
 prefetchsrc = ["'self'", "https://btcpay.nokware.net/"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'", "https://btcpay.nokware.net/" ]
+connectsrc = ["'self'", "https://btcpay.nokware.net/", "https://mail-mgmt.nokware.net/" ]
 
 [taxonomies]
 category = "categories"
@@ -105,14 +105,26 @@ author = "authors"
 
 # Menu links
 [languages.en]
-languageName = ":uk:"
+label = ":uk:"
 
 
+[[menu.main]]
+    name = "Start Here"
+    weight = 1
+    url = "/start-here/"
 [[menu.main]]
     name = "Blog"
-    weight = 1
+    weight = 2
     url  = "/posts/"
 [[menu.main]]
+    name = "Newsletter"
+    weight = 3
+    url = "/newsletter/"
+[[menu.main]]
+    name = "Audit"
+    weight = 4
+    url = "/creator-signal-audit/"
+[[menu.main]]
     name = "About"
-    weight = 2
+    weight = 5
     url = "/about/"

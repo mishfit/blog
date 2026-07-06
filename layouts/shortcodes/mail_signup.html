@@ -1,0 +1,34 @@
+{{- $list := .Get "list" | default "mishochu-updates" -}}
+{{- $source := .Get "source" | default .Page.RelPermalink -}}
+{{- $heading := .Get "heading" | default "Get the next note" -}}
+{{- $button := .Get "button" | default "Sign up" -}}
+{{- $note := .Get "note" | default "No spam. Unsubscribe any time." -}}
+{{- $action := .Get "action" | default "https://mail-mgmt.nokware.net/api/public/subscribe" -}}
+<form class="mail-signup" method="post" action="{{ $action }}" accept-charset="UTF-8">
+  <fieldset>
+    <legend>{{ $heading }}</legend>
+    <input type="hidden" name="list" value="{{ $list }}">
+    <input type="hidden" name="source" value="{{ $source }}">
+    <input type="hidden" name="source_url" value="{{ .Page.Permalink }}">
+    <p class="mail-signup-row">
+      <label for="mail-email-{{ $list | urlize }}">Email</label>
+      <input id="mail-email-{{ $list | urlize }}" type="email" name="email" autocomplete="email" required>
+    </p>
+    <p class="mail-signup-row">
+      <label for="mail-name-{{ $list | urlize }}">Name <span>(optional)</span></label>
+      <input id="mail-name-{{ $list | urlize }}" type="text" name="name" autocomplete="name">
+    </p>
+    <p class="mail-signup-hp" aria-hidden="true">
+      <label for="mail-company-{{ $list | urlize }}">Company</label>
+      <input id="mail-company-{{ $list | urlize }}" type="text" name="company" tabindex="-1" autocomplete="off">
+    </p>
+    <p class="mail-signup-consent">
+      <label for="mail-consent-{{ $list | urlize }}">
+        <input id="mail-consent-{{ $list | urlize }}" type="checkbox" name="marketingConsent" value="yes" required>
+        <span>I understand I am subscribing to marketing emails from Mish Ochu, potentially daily, and I can unsubscribe any time.</span>
+      </label>
+    </p>
+    <button type="submit">{{ $button }}</button>
+    <small>{{ $note }}</small>
+  </fieldset>
+</form>

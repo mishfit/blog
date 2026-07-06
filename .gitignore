@@ -9,6 +9,7 @@ logs
 *.sw[opu]
 
 public/
+resources/_gen/
 
 # npm
 node_modules/
