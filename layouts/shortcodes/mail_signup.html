@@ -10,6 +10,7 @@
     <input type="hidden" name="list" value="{{ $list }}">
     <input type="hidden" name="source" value="{{ $source }}">
     <input type="hidden" name="source_url" value="{{ .Page.Permalink }}">
+    <input type="hidden" name="form_started_at" value="">
     <p class="mail-signup-row">
       <label for="mail-email-{{ $list | urlize }}">Email</label>
       <input id="mail-email-{{ $list | urlize }}" type="email" name="email" autocomplete="email" required>

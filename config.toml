@@ -38,7 +38,7 @@ customCSS = []
 # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
 customSCSS = ["scss/mail-signup.scss"]
 # Custom JS
-customJS = []
+customJS = ["js/form-observability.js"]
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
 childsrc = ["'self'", "https://btcpay.nokware.net/"]
