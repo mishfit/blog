@@ -1,0 +1,1 @@
+document.querySelectorAll('input[name="form_started_at"]').forEach(function(e){e.value||(e.value=Date.now().toString())})

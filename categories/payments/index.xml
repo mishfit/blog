@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Payments on Mish Ochu</title><link>https://mishochu.com/categories/payments/</link><description>Recent content in Payments on Mish Ochu</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 12 Mar 2021 04:40:00 +0000</lastBuildDate><atom:link href="https://mishochu.com/categories/payments/index.xml" rel="self" type="application/rss+xml"/><item><title>Adding a Forging Block Donation Button</title><link>https://mishochu.com/posts/adding-a-forging-block-donation-button/</link><pubDate>Fri, 12 Mar 2021 04:40:00 +0000</pubDate><guid>https://mishochu.com/posts/adding-a-forging-block-donation-button/</guid><description>&lt;p&gt;I&amp;rsquo;m currently setting up an account at ForgingBlock](&lt;a href="https://forgingblock.io/%29"&gt;https://forgingblock.io/)&lt;/a&gt;. It&amp;rsquo;s a new cryptocurrency-based payment gateway that appears to be non-custodial. This is huge.&lt;/p&gt;
+&lt;p&gt;They&amp;rsquo;re not as political as other payment gateways that exist out there either. I&amp;rsquo;m quite impressed. Below is the payment button I generated after setting up an account with them:&lt;/p&gt;
+
+
+&lt;div&gt;
+	&lt;a class="buy-with-crypto"
+		href="https://api.forgingblock.io/fund/328a105f1afce852a9bd80479fcac3e1a9e7/5.00"
+		target="_blank"&gt;
+		&lt;img src="https://forgingblock.io/img/donate-with-forgingblock.png" /&gt;
+	&lt;/a&gt;
+&lt;/div&gt;</description></item></channel></rss>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Mish Ochu</title><link>https://mishochu.com/posts/</link><description>Recent content in Posts on Mish Ochu</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 01 Apr 2022 07:25:55 -0600</lastBuildDate><atom:link href="https://mishochu.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Modifying Litecart Themes</title><link>https://mishochu.com/posts/modifying-litecart-themes/</link><pubDate>Fri, 01 Apr 2022 07:25:55 -0600</pubDate><guid>https://mishochu.com/posts/modifying-litecart-themes/</guid><description>&lt;p&gt;I recently started using &lt;a href="https://litecart.net"&gt;Litecart&lt;/a&gt;, a light-weight, fast and open-source e-commerce platform with an incredible amount of flexibility and configurability.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s a set of free &lt;a href="https://www.litecart.net/en/addons?category_id=11&amp;amp;query=&amp;amp;type=free"&gt;themes&lt;/a&gt; too.&lt;/p&gt;
+&lt;p&gt;After installing one called the &lt;a href="https://www.litecart.net/en/addons/354/boomstore-theme"&gt;Boomstore Theme&lt;/a&gt; I noticed a few errors in the logs that get emailed to me from time to time:&lt;/p&gt;
+&lt;p&gt;* Notice: Undefined variable: catalog_only_mode in ~/includes/templates/boomstore.catalog/views/box_product.inc.php on line 128
+* Notice: Undefined index: listing_type in ~/includes/templates/boomstore.catalog/pages/category.inc.php on line 34&lt;/p&gt;
+&lt;p&gt;I changed a couple of files (namely &lt;code&gt;category.inc.php&lt;/code&gt; and &lt;code&gt;box_product.inc.php&lt;/code&gt;) to fix those errors while running *&lt;em&gt;Litecart&lt;/em&gt; v2.3.5.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;img
+ sizes="(min-width: 35em) 1200px, 100vw"
+ srcset='
+ 
+ /posts/modifying-litecart-themes/beyond-compare-boomstore-zip_hu_5a4282fed1302605.png 500w
+ 
+ 
+ , /posts/modifying-litecart-themes/beyond-compare-boomstore-zip_hu_3fa1a5fcf558f988.png 800w
+ 
+ 
+ , /posts/modifying-litecart-themes/beyond-compare-boomstore-zip_hu_7ed23cf685db1248.png 1200w
+ 
+ 
+ , /posts/modifying-litecart-themes/beyond-compare-boomstore-zip_hu_c45a7386f81a4a0a.png 1500w 
+ '
+ 
+ src="https://mishochu.com/posts/modifying-litecart-themes/beyond-compare-boomstore-zip.png"
+ 
+ alt="Beyond Compare Boomstore Theme"/&gt;
+&lt;/p&gt;</description></item><item><title>Building Automatically With Gogs and Jenkins</title><link>https://mishochu.com/posts/building-automatically-with-gogs-and-jenkins/</link><pubDate>Sat, 26 Feb 2022 21:41:16 -0700</pubDate><guid>https://mishochu.com/posts/building-automatically-with-gogs-and-jenkins/</guid><description>&lt;h2 id="fine-ill-do-it-myself"&gt;
+ Fine, I&amp;rsquo;ll Do It Myself
+ &lt;a class="heading-link" href="#fine-ill-do-it-myself"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://mishochu.com/posts/building-automatically-with-gogs-and-jenkins/images/fine-ill-do-it-myself.jpg" alt="fine I’ll do it myself" title="When Centralized Services Let You Down"&gt;&lt;/p&gt;</description></item><item><title>Adding a Forging Block Donation Button</title><link>https://mishochu.com/posts/adding-a-forging-block-donation-button/</link><pubDate>Fri, 12 Mar 2021 04:40:00 +0000</pubDate><guid>https://mishochu.com/posts/adding-a-forging-block-donation-button/</guid><description>&lt;p&gt;I&amp;rsquo;m currently setting up an account at ForgingBlock](&lt;a href="https://forgingblock.io/%29"&gt;https://forgingblock.io/)&lt;/a&gt;. It&amp;rsquo;s a new cryptocurrency-based payment gateway that appears to be non-custodial. This is huge.&lt;/p&gt;
+&lt;p&gt;They&amp;rsquo;re not as political as other payment gateways that exist out there either. I&amp;rsquo;m quite impressed. Below is the payment button I generated after setting up an account with them:&lt;/p&gt;
+
+
+&lt;div&gt;
+	&lt;a class="buy-with-crypto"
+		href="https://api.forgingblock.io/fund/328a105f1afce852a9bd80479fcac3e1a9e7/5.00"
+		target="_blank"&gt;
+		&lt;img src="https://forgingblock.io/img/donate-with-forgingblock.png" /&gt;
+	&lt;/a&gt;
+&lt;/div&gt;</description></item><item><title>SCP Examples</title><link>https://mishochu.com/posts/scp-examples/</link><pubDate>Tue, 07 May 2019 06:52:33 -0600</pubDate><guid>https://mishochu.com/posts/scp-examples/</guid><description>&lt;h1 id="example-syntax-for-secure-copy-scp"&gt;
+ Example syntax for Secure Copy (&lt;strong&gt;scp&lt;/strong&gt;)
+ &lt;a class="heading-link" href="#example-syntax-for-secure-copy-scp"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;h3 id="what-is-secure-copy"&gt;
+ What is Secure Copy?
+ &lt;a class="heading-link" href="#what-is-secure-copy"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;scp&lt;/strong&gt; allows files to be copied to, from, or between different hosts. It uses &lt;strong&gt;ssh&lt;/strong&gt; for data transfer and provides the same authentication and same level of security as &lt;strong&gt;ssh&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id="examples"&gt;
+ Examples
+ &lt;a class="heading-link" href="#examples"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;h4 id="copy-the-file-foobartxt-from-a-remote-host-to-the-local-host"&gt;
+ Copy the file &amp;ldquo;foobar.txt&amp;rdquo; from a remote host to the local host
+ &lt;a class="heading-link" href="#copy-the-file-foobartxt-from-a-remote-host-to-the-local-host"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;$ scp &lt;a href="mailto:your_username@remotehost.edu"&gt;your_username@remotehost.edu&lt;/a&gt;:foobar.txt /some/local/directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="copy-the-file-foobartxt-from-the-local-host-to-a-remote-host"&gt;
+ Copy the file &amp;ldquo;foobar.txt&amp;rdquo; from the local host to a remote host
+ &lt;a class="heading-link" href="#copy-the-file-foobartxt-from-the-local-host-to-a-remote-host"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;$ scp foobar.txt &lt;a href="mailto:your_username@remotehost.edu"&gt;your_username@remotehost.edu&lt;/a&gt;:/some/remote/directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="copy-the-directory-foo-from-the-local-host-to-a-remote-hosts-directory-bar"&gt;
+ Copy the directory &amp;ldquo;foo&amp;rdquo; from the local host to a remote host&amp;rsquo;s directory &amp;ldquo;bar&amp;rdquo;
+ &lt;a class="heading-link" href="#copy-the-directory-foo-from-the-local-host-to-a-remote-hosts-directory-bar"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;$ scp -r foo &lt;a href="mailto:your_username@remotehost.edu"&gt;your_username@remotehost.edu&lt;/a&gt;:/some/remote/directory/bar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="copy-the-file-foobartxt-from-remote-host-rh1edu-to-remote-host-rh2edu"&gt;
+ Copy the file &amp;ldquo;foobar.txt&amp;rdquo; from remote host &amp;ldquo;rh1.edu&amp;rdquo; to remote host &amp;ldquo;rh2.edu&amp;rdquo;
+ &lt;a class="heading-link" href="#copy-the-file-foobartxt-from-remote-host-rh1edu-to-remote-host-rh2edu"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;$ scp &lt;a href="mailto:your_username@rh1.edu"&gt;your_username@rh1.edu&lt;/a&gt;:/some/remote/directory/foobar.txt \ &lt;a href="mailto:your_username@rh2.edu"&gt;your_username@rh2.edu&lt;/a&gt;:/some/remote/directory/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="copying-the-files-footxt-and-bartxt-from-the-local-host-to-your-home-directory-on-the-remote-host"&gt;
+ Copying the files &amp;ldquo;foo.txt&amp;rdquo; and &amp;ldquo;bar.txt&amp;rdquo; from the local host to your home directory on the remote host
+ &lt;a class="heading-link" href="#copying-the-files-footxt-and-bartxt-from-the-local-host-to-your-home-directory-on-the-remote-host"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;$ scp foo.txt bar.txt &lt;a href="mailto:your_username@remotehost.edu"&gt;your_username@remotehost.edu&lt;/a&gt;:~&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="copy-the-file-foobartxt-from-the-local-host-to-a-remote-host-using-port-2264"&gt;
+ Copy the file &amp;ldquo;foobar.txt&amp;rdquo; from the local host to a remote host using port 2264
+ &lt;a class="heading-link" href="#copy-the-file-foobartxt-from-the-local-host-to-a-remote-host-using-port-2264"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;$ scp -P 2264 foobar.txt &lt;a href="mailto:your_username@remotehost.edu"&gt;your_username@remotehost.edu&lt;/a&gt;:/some/remote/directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="copy-multiple-files-from-the-remote-host-to-your-current-directory-on-the-local-host"&gt;
+ Copy multiple files from the remote host to your current directory on the local host
+ &lt;a class="heading-link" href="#copy-multiple-files-from-the-remote-host-to-your-current-directory-on-the-local-host"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$ scp &lt;a href="mailto:your_username@remotehost.edu"&gt;your_username@remotehost.edu&lt;/a&gt;:/some/remote/directory/{a,b,c} .&lt;/p&gt;</description></item><item><title>Pathogen for vim</title><link>https://mishochu.com/posts/pathogen-for-vim/</link><pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate><guid>https://mishochu.com/posts/pathogen-for-vim/</guid><description>&lt;h3 id="hello-everybody"&gt;
+ Hello everybody!
+ &lt;a class="heading-link" href="#hello-everybody"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Welcome to a brand new episode.&lt;/p&gt;
+&lt;p&gt;Before we start getting into the actual code I&amp;rsquo;d like to show you for each episode, I wanted to make sure you could understand what&amp;rsquo;s going on on my screen&amp;hellip;I use vim, which is a really text based editor.&lt;/p&gt;
+&lt;p&gt;Now, you&amp;rsquo;ll see a lot of people using Sublime or TextEdit or Visual Studio Code. There are a lot of things out there and there are some integrated development environments but I just really like vim. It&amp;rsquo;s really simple for me to use. I generally just open it up to the directory in which I&amp;rsquo;m working and I&amp;rsquo;ve got a couple of plugins that make it a little non standard.&lt;/p&gt;</description></item><item><title>Hello World, Again</title><link>https://mishochu.com/posts/hello-world-again/</link><pubDate>Wed, 02 May 2018 06:52:33 -0600</pubDate><guid>https://mishochu.com/posts/hello-world-again/</guid><description>&lt;h3 id="perhaps-this-time-itll-stick"&gt;
+ Perhaps this time, it&amp;rsquo;ll stick
+ &lt;a class="heading-link" href="#perhaps-this-time-itll-stick"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m not sure how many times I&amp;rsquo;ve started, or restarted a blog. My interests change often, software is a big tent with as many people striving for a solution to a problem as there are permutations required to rainbow someone&amp;rsquo;s bitcoin private key.&lt;/p&gt;
+&lt;p&gt;Needless to say, there&amp;rsquo;s room for everyone.&lt;/p&gt;
+&lt;p&gt;What I hadn&amp;rsquo;t realized in the past is that there&amp;rsquo;s room for the smallest of ideas too. I&amp;rsquo;d go weeks or months without writing since I thought it was mundane. Perhaps, but what if someone out there disagreed? What if it was just the thing someone else needed?&lt;/p&gt;</description></item><item><title>Talking Past Each Other</title><link>https://mishochu.com/posts/talking-past-each-other/</link><pubDate>Fri, 16 Oct 2015 00:00:00 +0000</pubDate><guid>https://mishochu.com/posts/talking-past-each-other/</guid><description>&lt;p&gt;It seems these days people can&amp;rsquo;t resist debating a number of issues on the national level. What is particularly problematic is very few of these issues affect only the interested or most passionate of those involved in the debate.
+In fact, some involved in the arguments are the least affected by the outcomes.&lt;/p&gt;
+&lt;p&gt;The commonality is that people more and more want the federal government to protect them or provide some reassurance they are otherwise lacking. I would prefer the government refrain from protecting me but instead stop preventing me from protecting myself, or choosing how best to do good in the world for those around me. If they could take it a step further and make sure others do not have undue influence over me I would be so happy.&lt;/p&gt;</description></item><item><title>Brevity is an Acceptable Policy</title><link>https://mishochu.com/posts/brevity-is-an-acceptable-policy/</link><pubDate>Sat, 12 Sep 2015 00:24:00 +0000</pubDate><guid>https://mishochu.com/posts/brevity-is-an-acceptable-policy/</guid><description>&lt;p&gt;Okay when it comes to code, &amp;ldquo;comprehension is king&amp;rdquo;. Readability trumps cleverness (I feel like my usage of the word &amp;ldquo;trump&amp;rdquo; has increased over the last few months, I wonder why). I am sometimes bitten by the cleverness bug and it seems C# 6 will let me cater to those times. The penultimate &amp;ldquo;hello world&amp;rdquo; example allows us to showcase this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="font-weight:bold"&gt;using&lt;/span&gt; &lt;span style="font-weight:bold"&gt;static&lt;/span&gt; System.Console;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="font-weight:bold"&gt;public&lt;/span&gt; &lt;span style="font-weight:bold"&gt;class&lt;/span&gt; &lt;span style="font-weight:bold"&gt;Program&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="font-weight:bold"&gt;public&lt;/span&gt; &lt;span style="font-weight:bold"&gt;void&lt;/span&gt; Main(&lt;span style=""&gt;string&lt;/span&gt;[] args) =&amp;gt; WriteLine(&lt;span style="font-style:italic"&gt;&amp;#34;Hello World&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This slightly shortened overused example has two features of C# 6 on display: &lt;a href="https://msdn.microsoft.com/en-us/magazine/dn879355.aspx"&gt;static usings&lt;/a&gt; and expression-bodied methods. I chose both of these features to discuss because they really do simplify your life (and are less controversial than the null propogation operator, for instance).&lt;/p&gt;</description></item></channel></rss>

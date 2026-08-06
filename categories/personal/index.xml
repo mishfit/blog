@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Personal on Mish Ochu</title><link>https://mishochu.com/categories/personal/</link><description>Recent content in Personal on Mish Ochu</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 27 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mishochu.com/categories/personal/index.xml" rel="self" type="application/rss+xml"/><item><title>Contact</title><link>https://mishochu.com/contact/</link><pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate><guid>https://mishochu.com/contact/</guid><description>&lt;p&gt;The simplest way to reach me is email:&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:mishochu@mishochu.com"&gt;mishochu@mishochu.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you are following the build notes or creator experiments, the newsletter is
+usually the better path. It gives me a cleaner place to send updates without
+trying to make every thought survive a social feed.&lt;/p&gt;
+&lt;form class="mail-signup" method="post" action="https://mail-mgmt.nokware.net/api/public/subscribe" accept-charset="UTF-8"&gt;
+ &lt;fieldset&gt;
+ &lt;legend&gt;Get the useful notes&lt;/legend&gt;
+ &lt;input type="hidden" name="list" value="mishochu-updates"&gt;
+ &lt;input type="hidden" name="source" value="contact"&gt;
+ &lt;input type="hidden" name="source_url" value="https://mishochu.com/contact/"&gt;
+ &lt;input type="hidden" name="form_started_at" value=""&gt;
+ &lt;p class="mail-signup-row"&gt;
+ &lt;label for="mail-email-mishochu-updates"&gt;Email&lt;/label&gt;
+ &lt;input id="mail-email-mishochu-updates" type="email" name="email" autocomplete="email" required&gt;
+ &lt;/p&gt;
+ &lt;p class="mail-signup-row"&gt;
+ &lt;label for="mail-name-mishochu-updates"&gt;Name &lt;span&gt;(optional)&lt;/span&gt;&lt;/label&gt;
+ &lt;input id="mail-name-mishochu-updates" type="text" name="name" autocomplete="name"&gt;
+ &lt;/p&gt;
+ &lt;p class="mail-signup-hp" aria-hidden="true"&gt;
+ &lt;label for="mail-company-mishochu-updates"&gt;Company&lt;/label&gt;
+ &lt;input id="mail-company-mishochu-updates" type="text" name="company" tabindex="-1" autocomplete="off"&gt;
+ &lt;/p&gt;
+ &lt;p class="mail-signup-consent"&gt;
+ &lt;label for="mail-consent-mishochu-updates"&gt;
+ &lt;input id="mail-consent-mishochu-updates" type="checkbox" name="marketingConsent" value="yes" required&gt;
+ &lt;span&gt;I understand I am subscribing to marketing emails from Mish Ochu, potentially daily, and I can unsubscribe any time.&lt;/span&gt;
+ &lt;/label&gt;
+ &lt;/p&gt;</description></item><item><title>Experiments</title><link>https://mishochu.com/experiments/</link><pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate><guid>https://mishochu.com/experiments/</guid><description>&lt;p&gt;This page tracks the public experiments that are shaping my current work.&lt;/p&gt;
+&lt;h2 id="creator-signal"&gt;
+ Creator signal
+ &lt;a class="heading-link" href="#creator-signal"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The creator experiment asks how a personal brand, niche content, and an email
+list can work together without turning into a content treadmill.&lt;/p&gt;
+&lt;p&gt;The first artifact is the &lt;a href="https://mishochu.com/creator-signal-audit/"&gt;Creator Signal Audit&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="wraith-reach"&gt;
+ Wraith Reach
+ &lt;a class="heading-link" href="#wraith-reach"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Wraith Reach is the software product idea behind the creator experiment.&lt;/p&gt;
+&lt;p&gt;The short version: help creators understand what their content is signaling,
+which audience behaviors matter, and how to turn platform attention into owned
+relationships.&lt;/p&gt;</description></item><item><title>Newsletter</title><link>https://mishochu.com/newsletter/</link><pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate><guid>https://mishochu.com/newsletter/</guid><description>&lt;p&gt;I use email as the durable thread between scattered public experiments.&lt;/p&gt;
+&lt;p&gt;Social posts are useful for discovery. Email is where the thinking can become
+more direct, less performative, and easier to find again.&lt;/p&gt;
+&lt;h2 id="what-i-send"&gt;
+ What I send
+ &lt;a class="heading-link" href="#what-i-send"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Expect notes about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;software I am building&lt;/li&gt;
+&lt;li&gt;creator and audience experiments&lt;/li&gt;
+&lt;li&gt;Nokware and Nokmetia work&lt;/li&gt;
+&lt;li&gt;lessons from things that worked&lt;/li&gt;
+&lt;li&gt;lessons from things that looked promising and then bit the dust&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The pattern is one idea per email: a short story or observation, the useful
+lesson, and a next step if there is one.&lt;/p&gt;</description></item><item><title>Start Here</title><link>https://mishochu.com/start-here/</link><pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate><guid>https://mishochu.com/start-here/</guid><description>&lt;p&gt;I am Mish. I write, build software, run experiments, and occasionally make the
+internet look more organized than it has any right to be.&lt;/p&gt;
+&lt;p&gt;This site is the home base for the work that does not fit cleanly inside a
+client repo, a social profile, or a private notebook.&lt;/p&gt;
+&lt;h2 id="what-this-is-about"&gt;
+ What this is about
+ &lt;a class="heading-link" href="#what-this-is-about"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The current thread running through my work is simple:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;build useful software in public&lt;/li&gt;
+&lt;li&gt;learn how attention turns into owned relationships&lt;/li&gt;
+&lt;li&gt;test ideas with real projects instead of only opinions&lt;/li&gt;
+&lt;li&gt;keep notes that are honest enough to be useful later&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The main experiments right now are creator tools, email systems, Nokmetia, and
+small software businesses under the Nokware umbrella.&lt;/p&gt;</description></item><item><title>Support Mish</title><link>https://mishochu.com/donate/</link><pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate><guid>https://mishochu.com/donate/</guid><description>&lt;style type="text/css"&gt; .btcpay-form { display: inline-flex; align-items: center; justify-content: center; } .btcpay-form--inline { flex-direction: row; } .btcpay-form--block { flex-direction: column; } .btcpay-form--inline .submit { margin-left: 15px; } .btcpay-form--block select { margin-bottom: 10px; } .btcpay-form .btcpay-custom-container{ text-align: center; }.btcpay-custom { display: flex; align-items: center; justify-content: center; } .btcpay-form .plus-minus { cursor:pointer; font-size:25px; line-height: 25px; background: #DFE0E1; height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto 5px; display: inline-flex; justify-content: center; } .btcpay-form select { -moz-appearance: none; -webkit-appearance: none; appearance: none; color: currentColor; background: transparent; border:1px solid transparent; display: block; padding: 1px; margin-left: auto; margin-right: auto; font-size: 11px; cursor: pointer; } .btcpay-form select:hover { border-color: #ccc; } #btcpay-input-price { -moz-appearance: none; -webkit-appearance: none; border: none; box-shadow: none; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff; color: #000 } #btcpay-input-price::-webkit-outer-spin-button, #btcpay-input-price::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; } &lt;/style&gt;
+&lt;style type="text/css"&gt; input[type=range].btcpay-input-range { -webkit-appearance:none; width:100%; background: transparent; } input[type=range].btcpay-input-range:focus { outline:0; } input[type=range].btcpay-input-range::-webkit-slider-runnable-track { width:100%; height:3.1px; cursor:pointer; box-shadow:0 0 1.7px #020,0 0 0 #003c00; background:#f3f3f3; border-radius:1px; border:0; } input[type=range].btcpay-input-range::-webkit-slider-thumb { box-shadow:none; border:2.5px solid #cedc21; height:22px; width:22px; border-radius:50%; background:#0f3723; cursor:pointer; -webkit-appearance:none; margin-top:-9.45px } input[type=range].btcpay-input-range:focus::-webkit-slider-runnable-track { background:#fff; } input[type=range].btcpay-input-range::-moz-range-track { width:100%; height:3.1px; cursor:pointer; box-shadow:0 0 1.7px #020,0 0 0 #003c00; background:#f3f3f3; border-radius:1px; border:0; } input[type=range].btcpay-input-range::-moz-range-thumb { box-shadow:none; border:2.5px solid #cedc21; height:22px; width:22px; border-radius:50%; background:#0f3723; cursor:pointer; } input[type=range].btcpay-input-range::-ms-track { width:100%; height:3.1px; cursor:pointer; background:0 0; border-color:transparent; color:transparent; } input[type=range].btcpay-input-range::-ms-fill-lower { background:#e6e6e6; border:0; border-radius:2px; box-shadow:0 0 1.7px #020,0 0 0 #003c00; } input[type=range].btcpay-input-range::-ms-fill-upper { background:#f3f3f3; border:0; border-radius:2px; box-shadow:0 0 1.7px #020,0 0 0 #003c00; } input[type=range].btcpay-input-range::-ms-thumb { box-shadow:none; border:2.5px solid #cedc21; height:22px; width:22px; border-radius:50%; background:#0f3723; cursor:pointer; height:3.1px; } input[type=range].btcpay-input-range:focus::-ms-fill-lower { background:#f3f3f3; } input[type=range].btcpay-input-range:focus::-ms-fill-upper { background:#fff; } &lt;/style&gt;
+&lt;form
+ method="POST"
+ action="https://btcpay.nokware.net/api/v1/invoices"
+ class="btcpay-form btcpay-form--block"
+ rel="nofollow noindex"&gt;
+ &lt;input type="hidden" name="storeId" value="4cnsZdjBgyCQm42Xb6CxbtAXkqPUMZbKCH8VcULWhCz1" /&gt;
+ &lt;input type="hidden" name="checkoutDesc" value="Support Mishael&amp;apos;s Work" /&gt;
+ &lt;input type="hidden" name="notifyEmail" value="info@mishochu.com" /&gt;
+ &lt;div class="btcpay-custom-container"&gt;
+ &lt;input id="btcpay-input-price" name="price" type="text" min="0" max="none" step="any" value="10" style="width: 209px;" oninput="event.preventDefault();isNaN(event.target.value)? document.querySelector('#btcpay-input-price').value = 10 : event.target.value; if (this.value &lt; undefined) {this.value = undefined; } else if(this.value &gt; undefined){ this.value = undefined;}" onchange= "var el=document.querySelector('#btcpay-input-price'); var price = parseInt(el.value); if(price&lt; 1) { el.value = 1} else if(price&gt; 50) { el.value = 50} document.querySelector('#btcpay-input-range').value = el.value" /&gt;
+ &lt;select name="currency"&gt;
+ &lt;option value="USD" selected&gt;USD&lt;/option&gt;
+ &lt;option value="GBP"&gt;GBP&lt;/option&gt;
+ &lt;option value="EUR"&gt;EUR&lt;/option&gt;
+ &lt;option value="BTC"&gt;BTC&lt;/option&gt;
+ &lt;/select&gt;
+ &lt;input class="btcpay-input-range" id="btcpay-input-range" value="10" type="range" min="1" max="50" step="1" style="width:209px;margin-bottom:15px;" oninput="document.querySelector('#btcpay-input-price').value = document.querySelector('#btcpay-input-range').value" /&gt;
+ &lt;/div&gt;
+ &lt;button type="submit" class="submit" name="submit" style="min-width:209px; min-height:57px; border-radius: 4px;border-style: none;background-color: #0f3b21;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"&gt;&lt;span style="color:#fff"&gt;Donate with&lt;/span&gt;
+ &lt;img src="https://btcpay.nokware.net/checkout/css/default-logo.svg" style="height:57px;display:inline-block;padding: 5% 0 5% 5px;vertical-align: middle;"&gt;
+ &lt;/button&gt;
+&lt;/form&gt;</description></item><item><title>About Mish</title><link>https://mishochu.com/about/</link><pubDate>Thu, 11 Sep 2014 00:00:00 +0000</pubDate><guid>https://mishochu.com/about/</guid><description>&lt;h2 id="hello"&gt;
+ Hello
+ &lt;a class="heading-link" href="#hello"&gt;
+ &lt;i class="fa fa-link" aria-hidden="true"&gt;&lt;/i&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;My name&amp;rsquo;s Mish, well, sort of&amp;hellip;let&amp;rsquo;s just say it&amp;rsquo;s short for a seemingly easy
+name which lot&amp;rsquo;s of people find ridiculously hard to pronounce.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve had lot&amp;rsquo;s of practice though (what with it being my name) so I generally
+explain it to others as if they were about eight. &amp;ldquo;It&amp;rsquo;s &amp;lsquo;Mish&amp;rsquo; like &amp;lsquo;fish&amp;rsquo;.&amp;rdquo;
+Given that the phonetics of &lt;a href="http://en.wikipedia.org/wiki/Ghoti"&gt;fish&lt;/a&gt; can
+be confusing in their own right I guess it&amp;rsquo;s no surprise the ensuing difficulty.&lt;/p&gt;</description></item></channel></rss>
