@@ -4,6 +4,7 @@
 {{- $button := .Get "button" | default "Sign up" -}}
 {{- $note := .Get "note" | default "No spam. Unsubscribe any time." -}}
 {{- $action := .Get "action" | default "https://mail-mgmt.nokware.net/api/public/subscribe" -}}
+{{- $turnstileSiteKey := .Site.Params.turnstile.siteKey -}}
 <form class="mail-signup" method="post" action="{{ $action }}" accept-charset="UTF-8">
   <fieldset>
     <legend>{{ $heading }}</legend>
@@ -29,6 +30,10 @@
         <span>I understand I am subscribing to marketing emails from Mish Ochu, potentially daily, and I can unsubscribe any time.</span>
       </label>
     </p>
+    {{ with $turnstileSiteKey }}
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <div class="cf-turnstile" data-sitekey="{{ . }}"></div>
+    {{ end }}
     <button type="submit">{{ $button }}</button>
     <small>{{ $note }}</small>
   </fieldset>

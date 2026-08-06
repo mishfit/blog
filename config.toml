@@ -39,12 +39,16 @@ customCSS = []
 customSCSS = ["scss/mail-signup.scss"]
 # Custom JS
 customJS = ["js/form-observability.js"]
+[params.turnstile]
+# Public Cloudflare Turnstile site key for mishochu.com. The matching secret belongs in Mail-Mgmt as TURNSTILE_SECRET_KEY.
+siteKey = "0x4AAAAAAEIJfS5bdCpAHirV"
+
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
-childsrc = ["'self'", "https://btcpay.nokware.net/"]
+childsrc = ["'self'", "https://btcpay.nokware.net/", "https://challenges.cloudflare.com/"]
 fontsrc = ["'self'" ]
 formaction = ["'self'", "https://btcpay.nokware.net/", "https://mail-mgmt.nokware.net/"]
-framesrc = ["'self'", "https://www.youtube.com/"]
+framesrc = ["'self'", "https://www.youtube.com/", "https://challenges.cloudflare.com/"]
 imgsrc = ["'self'", "https://btcpay.nokware.net/", "https://i.vimeocdn.com/"]
 objectsrc = ["'none'"]
 stylesrc = [
@@ -54,11 +58,12 @@ stylesrc = [
 scriptsrc = [
   "'self'",
   "'unsafe-inline'",
-  "https://btcpay.nokware.net/"
+  "https://btcpay.nokware.net/",
+  "https://challenges.cloudflare.com/"
 ]
 prefetchsrc = ["'self'", "https://btcpay.nokware.net/"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'", "https://btcpay.nokware.net/", "https://mail-mgmt.nokware.net/" ]
+connectsrc = ["'self'", "https://btcpay.nokware.net/", "https://mail-mgmt.nokware.net/", "https://challenges.cloudflare.com/" ]
 
 [taxonomies]
 category = "categories"
