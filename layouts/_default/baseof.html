@@ -133,6 +133,9 @@
       {{ end }}
     {{ end }}
 
+    {{ if and hugo.IsProduction (not hugo.IsServer) }}
+    <script defer src="https://analytics.nokware.net/nokware.js"></script>
+    {{ end }}
   </body>
 
 </html>
