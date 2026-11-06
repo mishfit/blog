@@ -59,11 +59,12 @@ scriptsrc = [
   "'self'",
   "'unsafe-inline'",
   "https://btcpay.nokware.net/",
+  "https://analytics.nokware.net/",
   "https://challenges.cloudflare.com/"
 ]
 prefetchsrc = ["'self'", "https://btcpay.nokware.net/"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'", "https://btcpay.nokware.net/", "https://mail-mgmt.nokware.net/", "https://challenges.cloudflare.com/" ]
+connectsrc = ["'self'", "https://btcpay.nokware.net/", "https://mail-mgmt.nokware.net/", "https://challenges.cloudflare.com/", "https://analytics.nokware.net/" ]
 
 [taxonomies]
 category = "categories"
