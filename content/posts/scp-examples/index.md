@@ -1,55 +1,58 @@
 ---
 title: "SCP Examples"
 date: 2019-05-07T06:52:33-06:00
+lastmod: 2026-11-23
 ---
-# Example syntax for Secure Copy (**scp**)
 
-### What is Secure Copy?
+`scp` copies files between local and remote hosts over an SSH connection. Current OpenSSH uses SFTP for the transfer. These examples use placeholder usernames, hosts and paths. [OpenSSH manual](https://man.openbsd.org/scp)
 
-**scp** allows files to be copied to, from, or between different hosts. It uses **ssh** for data transfer and provides the same authentication and same level of security as **ssh**.
+## Copy a remote file to this machine
 
-### Examples
+```sh
+scp your_username@remotehost.edu:foobar.txt /some/local/directory
+```
 
-#### Copy the file "foobar.txt" from a remote host to the local host
+## Copy a local file to a remote host
 
-- $ scp your_username@remotehost.edu:foobar.txt /some/local/directory
+```sh
+scp foobar.txt your_username@remotehost.edu:/some/remote/directory
+```
 
-#### Copy the file "foobar.txt" from the local host to a remote host
+## Copy a directory recursively
 
-- $ scp foobar.txt your_username@remotehost.edu:/some/remote/directory
+```sh
+scp -r foo your_username@remotehost.edu:/some/remote/directory/bar
+```
 
-#### Copy the directory "foo" from the local host to a remote host's directory "bar"
+## Copy between remote hosts
 
-- $ scp -r foo your_username@remotehost.edu:/some/remote/directory/bar
+```sh
+scp your_username@rh1.edu:/some/remote/directory/foobar.txt \
+  your_username@rh2.edu:/some/remote/directory/
+```
 
-#### Copy the file "foobar.txt" from remote host "rh1.edu" to remote host "rh2.edu"
+## Copy several local files
 
-- $ scp your_username@rh1.edu:/some/remote/directory/foobar.txt \ your_username@rh2.edu:/some/remote/directory/
+```sh
+scp foo.txt bar.txt your_username@remotehost.edu:~
+```
 
-#### Copying the files "foo.txt" and "bar.txt" from the local host to your home directory on the remote host
+## Use a different SSH port
 
-- $ scp foo.txt bar.txt your_username@remotehost.edu:~
+The uppercase `-P` selects the port.
 
-#### Copy the file "foobar.txt" from the local host to a remote host using port 2264
+```sh
+scp -P 2264 foobar.txt your_username@remotehost.edu:/some/remote/directory
+```
 
-- $ scp -P 2264 foobar.txt your_username@remotehost.edu:/some/remote/directory
+## Copy several remote files
 
-#### Copy multiple files from the remote host to your current directory on the local host
+```sh
+scp your_username@remotehost.edu:/some/remote/directory/a \
+  your_username@remotehost.edu:/some/remote/directory/b \
+  your_username@remotehost.edu:/some/remote/directory/c .
+```
 
-- $ scp your_username@remotehost.edu:/some/remote/directory/\{a,b,c\} .
+Compression is optional through `-C`. The current [manual](https://man.openbsd.org/scp) documents it along with cipher selection and the legacy-protocol option. This article's former Triple-DES default claim and Blowfish examples were removed in the November 2026 review.
 
-- $ scp your_username@remotehost.edu:~/\{foo.txt,bar.txt\} .
-
-### **scp** Performance
-
-By default **scp** uses the Triple-DES cipher to encrypt the data being sent. Using the Blowfish cipher has been shown to increase speed. This can be done by using option *-c blowfish* in the command line.
-
-- $ scp -c blowfish some_file your_username@remotehost.edu:~
-
-It is often suggested that the *-C* option for compression should also be used to increase speed. The effect of compression, however, will only significantly increase speed if your connection is very slow. Otherwise it may just be adding extra burden to the CPU. An example of using blowfish and compression:
-
-- $ scp -c blowfish -C local_file your_username@remotehost.edu:~
-
-### Contributions
-
-Thanks **Stewart Macleod** for port example.
+Thanks to Stewart Macleod for the port example.

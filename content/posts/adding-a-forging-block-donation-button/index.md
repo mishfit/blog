@@ -2,9 +2,10 @@
 title: "Adding a Forging Block Donation Button"
 date: 2021-03-12 04:40:00
 categories: [cryptocurrency,tusc,payments]
+lastmod: 2026-11-23
 ---
 
-I'm currently setting up an account at ForgingBlock](https://forgingblock.io/). It's a new cryptocurrency-based payment gateway that appears to be non-custodial. This is huge.
+I'm currently setting up an account at [ForgingBlock](https://forgingblock.io/). It's a new cryptocurrency-based payment gateway that appears to be non-custodial.
 
 They're not as political as other payment gateways that exist out there either. I'm quite impressed. Below is the payment button I generated after setting up an account with them:
 

@@ -1,13 +1,14 @@
 ---
 title: "Hello World, Again"
 date: 2018-05-02T06:52:33-06:00
+lastmod: 2026-11-23
 ---
 
 ### Perhaps this time, it'll stick
 
 I'm not sure how many times I've started, or restarted a blog. My interests change often, software is a big tent with as many people striving for a solution to a problem as there are permutations required to rainbow someone's bitcoin private key.
 
-Needless to say, there's room for everyone.
+There's room for everyone.
 
 What I hadn't realized in the past is that there's room for the smallest of ideas too. I'd go weeks or months without writing since I thought it was mundane. Perhaps, but what if someone out there disagreed? What if it was just the thing someone else needed?
 
@@ -19,5 +20,3 @@ So here's what I'll do:
 2. I'll show you how anyone can accept payments in ETH, BCH, BTC, and [OCC](https://originalcryptocoin.com/) without a third party payment gateway.
 3. I'll roll these up into a neat set of tutorials and offer them here.
 4. I'll setup times to meet online with anyone interested to learn or work through their issues with both popular bitcoin blockchains, ethereum or erc20 tokens.
-
-*This should get interesting...*

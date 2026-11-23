@@ -3,36 +3,34 @@ title: "Adding Yourself to Sudoers"
 date: 2021-02-14 08:31:00
 categories: [linux,debian,setup]
 links: https://www.glenngillen.com/thoughts/adding-yourself-to-the-sudoers-file
-draft: true
+draft: false
+lastmod: 2026-11-23
 ---
 
-There's a list of things you inevitably have to do when setting up a new machine. I prefer the debian flavor to ubuntu, but I don't have a great reason or anything like that, it's just a bias.
+Adding my account to sudoers is one of the setup steps I repeat on a new Debian machine. I prefer Debian to Ubuntu, though that is mostly habit.
 
-Some people do this in order not to run as root, even disabling root. I do it too, mostly out of habit as opposed to consciously trying to harden my linux instance.
+## Add the account
 
-## Adding youself to sudoers
-Speaking of root, you'll have to assume root at least one last time to perform these steps
+First, assume root and authenticate when prompted.
 
-```
+```sh
 su -
 ```
 
-Authenticate as root when prompted. Next edit the sudoers file using `visudo`:
+Open the sudoers file through `visudo`.
 
-```
+```sh
 visudo
 ```
 
-Now, I'm a fan of `vim`, not so much one for `vi`...nevertheless, I'm not in this editor for long. I simply add my account after root.
+I add my account after the root entry, replacing the placeholder with my username.
 
-```
+```text
 <your_account_here> ALL=(ALL:ALL)      ALL
 ```
 
-Exit and save the buffer, writing the sudoers file.
+Save the file and exit the editor, then leave the root session.
 
-Exit the `su` session:
-```
+```sh
 exit
 ```
-
